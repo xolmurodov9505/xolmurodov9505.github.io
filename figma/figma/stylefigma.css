@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.box p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+.box2 {
+
+    width: 1060px;
+    height: 500px;
+    background-image: url(./1614723891_106-p-foni-dlya-literaturi-128\ 1.jpg);
+    margin: 60px auto 0px;
+}
+
+.box2 h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    color: #494949;
+}
+
+.orta {
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+
+}
+
+.orta .box_orta {
+    width: 330px;
+    height: 330px;
+    background: #C4C4C4;
+    margin: 80px 0;
+    overflow: hidden;
+}
+
+.orta .box_orta p {
+    padding: 50px;
+    overflow: auto;
+}
+
+.orta .box_orta h2 {
+    padding: 10px 38px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000
+}
+
+.orta .box_orta p {
+    padding: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 30px;
+    color: #000000;
+}
+
+footer{
+    width: 100%;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+
+footer .footer_right p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+footer .footer_right a{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+color: #000000;
+/* display: block; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
