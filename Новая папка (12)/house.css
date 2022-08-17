@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.img {
+    text-align: center;
+}
+
+.gega img {
+    display: block;
+    margin: auto;
+}
+
+.mega img {
+    display: block;
+    margin: auto;
+}
+.ortacha{
+display: flex;
+margin-left: 137px;
+margin-right: 180px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.mega{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
