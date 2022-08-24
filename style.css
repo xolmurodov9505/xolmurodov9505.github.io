@@ -1,12 +1,89 @@
-.Botirbek{
-    display: flex;
+.menu {
+   width: 1200px;
+   height: 800px;
+   margin: auto;
+   background-color: green;
 }
 
+.box {
+   width: 200px;
+   height: 200px;
+   background-color: red;
+}
 
+.box1 {
+   display: flex;
+   justify-content: space-between;
+}
 
+.box2 {
+   width: calc(100%/6);
+   height: 200px;
+   background-color: blueviolet;
+}
 
+.box3 {
+   width: calc(100%/6);
+   height: 200px;
+   background-color: black;
+}
 
+.box4 {
+   width: calc(100%/6);
+   height: 200px;
+   background-color: blue;
+}
 
+.box5 {
+   width: calc(100%/6);
+   height: 200px;
+   background-color: chartreuse;
+}
 
+.box6 {
+   width: calc(100%/6);
+   height: 200px;
+   background-color: tomato;
+}
 
+@media (max-width:1000px) {
+   .menu .box {
+      width: calc(100% / 6);
+      background: pink;
+   }
+}
 
+@media (max-width:800px) {
+   .menu .box {
+      width: calc(100% / 5);
+      background: red;
+   }
+}
+
+@media (max-width:555px) {
+   .menu .box {
+      width: calc(100% / 4);
+      background: rebeccapurple;
+   }
+}
+
+@media (max-width:454px) {
+   .menu .box {
+      width: calc(100% / 3);
+      background: blue;
+   }
+}
+
+@media (max-width:350px) {
+   .menu .box {
+      width: calc(100% / 2);
+      background: blueviolet;
+   }
+}
+
+@media (max-width:0px) {
+   .menu .box {
+      width: calc(100% / 1);
+      background: grey;
+   }
+}
